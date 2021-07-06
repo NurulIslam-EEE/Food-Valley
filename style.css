@@ -48,3 +48,24 @@ span{
     width: 90%;
     margin-top: -80px;
 }
+
+
+/*------- second page----------- */
+
+
+.second-page{
+    display: flex;
+    background: url(img/Frame\ 57.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.second-page img{
+    height: 90vh;
+    width: 90%;
+    margin-left: 10%;
+}
+.profile{
+    padding:30px 0;
+    font-weight: 500;
+    font-size: 20px;
+}
