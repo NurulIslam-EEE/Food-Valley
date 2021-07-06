@@ -15,6 +15,7 @@
 }
 .title{
     width: 50%;
+    height: 100vh;
     margin-top: 140px;
     padding-left: 4%;
 }
@@ -58,6 +59,7 @@ span{
     background: url(img/Frame\ 57.jpg);
     background-size: cover;
     height: 100vh;
+    width: 100%;
 }
 .second-page img{
     height: 90vh;
@@ -71,18 +73,58 @@ span{
 }
 
 
-/* -----------third page------------ */
+/* --------------Third page-------------- */
 
-.third-page .recepie-details{
+.third-page{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(250,153,76,0.9));
+}
+.third-page h1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+    }
+    
+    .expert-profile{
+        display: flex;
+        padding-top: 50px;
+        padding-right: 20px;
+        padding-left: 20px;
+        
+    }
+    .profile-details {
+        width: 22%;
+    height: 90%;
+        box-shadow: 0px 0px 10px 0px;
+        border-radius: 10px;
+        margin: 40px;
+        padding-bottom: 3%;
+    
+    }
+    .profile-details img{
+        height: 33%;
+        width: 90%;
+        border-radius: 10px;
+        padding: 5%;
+    }
+    .profile-details h1{
+        text-align: left;
+        padding: 0 15px;
+    }
+
+
+
+/* -----------Fourth page------------ */
+
+.fourth-page .recepie-details{
     display: block;
 }
 
-.third-page h1{
+.fourth-page h1{
 text-align: center;
 font-size: 50px;
 padding-top: 20px;
 }
-.third-page p{
+.fourth-page p{
     padding: 20px 70px 0px 70px;
     font-size: 20px;
     text-align: left;
@@ -96,10 +138,11 @@ padding-top: 20px;
 }
 .menu {
     width: 30%;
-height: 80%;
+height: 90%;
     box-shadow: 0px 0px 10px 0px;
     border-radius: 30px;
     margin: 40px;
+    padding-bottom: 3%;
 
 }
 .menu img{
@@ -128,6 +171,7 @@ height: 80%;
     align-content: center;
     margin-left: 5%;
     margin-right: 5%;
+    margin-top: 2%;
 }
 .social .social-item{
     width: 30%;
@@ -152,7 +196,7 @@ text-align: center;
     text-align: center;
     background: #EBF8FF;
     width: 100%;
-    height: 30vh;
+    height: 40%;
     margin-top: 5%;
     padding-top: 5%;
     display: block;
@@ -161,7 +205,7 @@ text-align: center;
     font-size: 60px;
 }
 .footer p{
-    color: white;
-    font-weight: 400;
+    color: black;
+    font-weight: 500;
     font-size: 22px;
 }
