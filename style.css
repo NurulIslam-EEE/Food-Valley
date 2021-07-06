@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -44,9 +45,8 @@ span{
     display: inline-block;
 }
 .title img{
-    width: 90%;
-    height: 90%;
-    width: 90%;
+    width: 100%;
+    height: 100%;
     margin-top: -80px;
 }
 
@@ -76,12 +76,13 @@ span{
 /* --------------Third page-------------- */
 
 .third-page{
-    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(250,153,76,0.9));
+    background-image: linear-gradient(rgba(0,0,0,0.1),#009688);
 }
 .third-page h1{
     text-align: center;
     font-size: 50px;
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-left: ;
     }
     
     .expert-profile{
@@ -106,9 +107,14 @@ span{
         border-radius: 10px;
         padding: 5%;
     }
-    .profile-details h1{
+    .profile-details h3{
         text-align: left;
         padding: 0 15px;
+    }
+    .profile-details p{
+    padding-left: 15px;
+        font-size: 15px;
+        text-align: left;
     }
 
 
@@ -191,14 +197,77 @@ text-align: center;
 }
 
 
+/* ---------fifth page-------- */
+
+
+
+#testimonial{
+    width:100% ;
+    padding-top: 70px ;
+    background-image: linear-gradient(white,#FFBE00);
+    background-size: cover;
+    margin-top: 20px;
+    
+}
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+
+}
+.title-text h1{
+    margin: auto;
+    font-size: 50px;
+    font-weight: bold;
+
+    display: inline-block;
+
+}
+.testimonial-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.testimonial-col{
+    flex-basis: 28%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px 0px #009688;
+    cursor: pointer;
+}
+.testimonial-col p{
+    font-size: 14px;
+
+}
+.user{
+        display: flex;
+        align-items: center;
+        margin: 20px 0;
+    }
+.user img{
+        width: 40px;
+        margin-right: 20px;
+        border-radius: 3px;
+    }
+.user-info small{
+        color: #009688;
+    }
+
+
 /* -------------footer------------ */
+
+
+
 .footer{
     text-align: center;
     background: #EBF8FF;
     width: 100%;
     height: 40%;
-    margin-top: 5%;
-    padding-top: 5%;
+    
+
     display: block;
 }
 .footer h1{
